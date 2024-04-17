@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(229, 231, 235);
+}
+
+.links, .details {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.details {
+    max-width: 700px;
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.copyright svg:nth-child(1) {
+  position: relative;
+  top: 3px;
+  margin-right: 2px;
+}
